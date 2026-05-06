@@ -5,7 +5,7 @@ import Icon from '@/components/ui/icon';
 const DISH_IMAGE = 'https://cdn.poehali.dev/projects/1f4832cd-4e04-4a49-9c8e-c4a2c7992247/files/e33d72d6-bcd4-411b-afab-0db9be10bc82.jpg';
 const SEAFOOD_IMAGE = 'https://cdn.poehali.dev/projects/1f4832cd-4e04-4a49-9c8e-c4a2c7992247/files/e924042a-4df1-4ce1-a498-5fb229f9beca.jpg';
 
-const CATEGORIES = ['Все', 'Форель', 'Судак', 'Вырезка', 'Салаты', 'Завтраки', 'Закуски', 'Десерты'];
+const CATEGORIES = ['Все', 'Форель', 'Судак', 'Вырезка', 'Салаты', 'Завтраки', 'Закуски', 'Десерты', 'Напитки'];
 
 const MENU: { id: string; name: string; desc: string; price: number; cat: string; image: string; tag?: string }[] = [
   { id: 'f1', name: 'Форель на гриле', desc: 'Свежая форель на углях, сезонные овощи, соус из трав и лимона', price: 1200, cat: 'Форель', image: SEAFOOD_IMAGE, tag: 'Шеф рекомендует' },
@@ -40,6 +40,15 @@ const MENU: { id: string; name: string; desc: string; price: number; cat: string
   { id: 'd4', name: 'Трайфл ягодный', desc: 'Бисквит с малиной и черникой, маскарпоне, ягодное желе, взбитые сливки', price: 380, cat: 'Десерты', image: DISH_IMAGE },
   { id: 'd5', name: 'Чизкейк Нью-Йорк', desc: 'Классический чизкейк на песочной основе, ягодный соус, мята', price: 390, cat: 'Десерты', image: DISH_IMAGE },
   { id: 'd6', name: 'Чизкейк карамельный', desc: 'Чизкейк с солёной карамелью, орехами пекан, ванильный крем', price: 420, cat: 'Десерты', image: DISH_IMAGE },
+  { id: 'n1', name: 'Морс клюквенный', desc: 'Домашний морс из свежей клюквы, без консервантов, со льдом', price: 180, cat: 'Напитки', image: DISH_IMAGE },
+  { id: 'n2', name: 'Морс облепиховый', desc: 'Домашний морс из облепихи, мёд, имбирь, со льдом или горячим', price: 190, cat: 'Напитки', image: DISH_IMAGE },
+  { id: 'n3', name: 'Мохито классический', desc: 'Безалкогольный мохито: лайм, мята, сахарный сироп, содовая, лёд', price: 220, cat: 'Напитки', image: DISH_IMAGE },
+  { id: 'n4', name: 'Чай листовой', desc: 'В ассортименте: чёрный, зелёный, белый, травяной — заварной чайник', price: 160, cat: 'Напитки', image: DISH_IMAGE },
+  { id: 'n5', name: 'Латте', desc: 'Зерновой кофе двойной эспрессо, паровое молоко, нежная молочная пена', price: 240, cat: 'Напитки', image: DISH_IMAGE },
+  { id: 'n6', name: 'Американо', desc: 'Зерновой кофе, двойной эспрессо с горячей водой, мягкий вкус', price: 180, cat: 'Напитки', image: DISH_IMAGE },
+  { id: 'n7', name: 'Эспрессо', desc: 'Классический эспрессо из зернового кофе, насыщенный и ароматный', price: 140, cat: 'Напитки', image: DISH_IMAGE },
+  { id: 'n8', name: 'Раф', desc: 'Зерновой кофе, сливки, ванильный сахар — взбитые вместе до бархатной текстуры', price: 260, cat: 'Напитки', image: DISH_IMAGE },
+  { id: 'n9', name: 'Кола', desc: 'Coca-Cola 0.33 л, охлаждённая, со льдом и долькой лимона', price: 150, cat: 'Напитки', image: DISH_IMAGE },
 ];
 
 interface MenuSectionProps {

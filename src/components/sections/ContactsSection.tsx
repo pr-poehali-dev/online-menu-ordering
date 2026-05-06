@@ -1,7 +1,7 @@
 import Icon from '@/components/ui/icon';
 
 const CONTACTS = [
-  { icon: 'MapPin', label: 'Адрес', value: 'Москва, Патриаршие пруды, ул. Малая Бронная, 32' },
+  { icon: 'MapPin', label: 'Адрес', value: 'Череповец, Советский проспект, 78' },
   { icon: 'Phone', label: 'Телефон', value: '+7 (495) 999-00-11' },
   { icon: 'Mail', label: 'Email', value: 'reserve@maison-restaurant.ru' },
   { icon: 'Clock', label: 'Часы работы', value: 'Пн–Вс: 12:00 — 23:00' },
