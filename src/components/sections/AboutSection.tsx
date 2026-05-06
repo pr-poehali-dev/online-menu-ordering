@@ -8,7 +8,7 @@ export default function AboutSection() {
           <div className="relative">
             <img
               src={INTERIOR_IMAGE}
-              alt="Интерьер ресторана MAISON"
+              alt="Интерьер ресторана Марлин"
               className="w-full h-[500px] object-cover"
             />
             <div className="absolute -bottom-6 -right-6 bg-background border border-gold/30 p-6 hidden lg:block">
@@ -23,7 +23,7 @@ export default function AboutSection() {
             <div className="gold-divider mb-8" />
 
             <p className="text-muted-foreground font-body font-light leading-relaxed mb-6">
-              MAISON — это не просто ресторан. Это путешествие в мир высокой гастрономии, вдохновлённое
+              «Марлин» — это не просто ресторан. Это путешествие в мир высокой гастрономии, вдохновлённое
               величием атлантического марлина — одной из самых благородных рыб океана.
             </p>
             <p className="text-muted-foreground font-body font-light leading-relaxed mb-8">

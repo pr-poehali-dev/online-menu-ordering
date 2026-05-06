@@ -19,7 +19,7 @@ export default function HeroSection({ scrollTo }: HeroSectionProps) {
         </p>
 
         <h1 className="font-display font-light text-champagne mb-4" style={{ fontSize: 'clamp(4rem, 10vw, 8rem)', lineHeight: 1, letterSpacing: '0.1em' }}>
-          MAISON
+          МАРЛИН
         </h1>
 
         <div className="flex items-center justify-center gap-4 mb-8">

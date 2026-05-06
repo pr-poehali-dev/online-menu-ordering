@@ -91,9 +91,9 @@ export default function Index() {
         <div id="contacts"><ContactsSection /></div>
       </main>
       <footer className="bg-charcoal border-t border-border py-12 text-center">
-        <p className="font-display text-4xl text-gold tracking-[0.3em] mb-4">MAISON</p>
+        <p className="font-display text-4xl text-gold tracking-[0.3em] mb-4">МАРЛИН</p>
         <p className="text-muted-foreground text-xs font-body tracking-widest uppercase">
-          © 2026 MAISON. Все права защищены.
+          © 2026 МАРЛИН. Все права защищены.
         </p>
       </footer>
     </div>
