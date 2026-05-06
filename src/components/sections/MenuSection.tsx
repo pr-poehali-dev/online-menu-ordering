@@ -5,7 +5,7 @@ import Icon from '@/components/ui/icon';
 const DISH_IMAGE = 'https://cdn.poehali.dev/projects/1f4832cd-4e04-4a49-9c8e-c4a2c7992247/files/e33d72d6-bcd4-411b-afab-0db9be10bc82.jpg';
 const SEAFOOD_IMAGE = 'https://cdn.poehali.dev/projects/1f4832cd-4e04-4a49-9c8e-c4a2c7992247/files/e924042a-4df1-4ce1-a498-5fb229f9beca.jpg';
 
-const CATEGORIES = ['Все', 'Форель', 'Вырезка', 'Завтраки', 'Закуски'];
+const CATEGORIES = ['Все', 'Форель', 'Вырезка', 'Салаты', 'Завтраки', 'Закуски', 'Десерты'];
 
 const MENU: { id: string; name: string; desc: string; price: number; cat: string; image: string; tag?: string }[] = [
   { id: 'f1', name: 'Форель на гриле', desc: 'Свежая форель на углях, сезонные овощи, соус из трав и лимона', price: 1200, cat: 'Форель', image: SEAFOOD_IMAGE, tag: 'Шеф рекомендует' },
@@ -25,6 +25,16 @@ const MENU: { id: string; name: string; desc: string; price: number; cat: string
   { id: 'k3', name: 'Мясная тарелка', desc: 'Ассорти из вяленого и копчёного мяса, горчица, маринованные огурцы, ржаной хлеб', price: 980, cat: 'Закуски', image: DISH_IMAGE },
   { id: 'k4', name: 'Сырная тарелка', desc: 'Подборка выдержанных сыров, мёд, грецкий орех, виноград, крекеры', price: 850, cat: 'Закуски', image: DISH_IMAGE },
   { id: 'k5', name: 'Тарталетки', desc: 'Хрустящие тарталетки с начинкой: икра форели, сливочный сыр, зелень', price: 380, cat: 'Закуски', image: SEAFOOD_IMAGE },
+  { id: 's1', name: 'Цезарь с курицей', desc: 'Листья романо, куриное филе гриль, соус цезарь, пармезан, гренки', price: 480, cat: 'Салаты', image: DISH_IMAGE },
+  { id: 's2', name: 'Цезарь с форелью', desc: 'Листья романо, копчёная форель, соус цезарь, пармезан, гренки', price: 620, cat: 'Салаты', image: SEAFOOD_IMAGE, tag: 'Шеф рекомендует' },
+  { id: 's3', name: 'Карбонара классическая', desc: 'Паста спагетти, бекон панчетта, сыр пекорино, яичный желток, чёрный перец', price: 520, cat: 'Салаты', image: DISH_IMAGE },
+  { id: 's4', name: 'Карбонара с форелью', desc: 'Паста тальятелле, копчёная форель, сливочный соус, пармезан, икра форели', price: 680, cat: 'Салаты', image: SEAFOOD_IMAGE, tag: 'Новинка' },
+  { id: 'd1', name: 'Шоколадная лава', desc: 'Тёплый шоколадный кекс с жидкой начинкой, ванильное мороженое, ягоды', price: 420, cat: 'Десерты', image: DISH_IMAGE },
+  { id: 'd2', name: 'Мороженое', desc: 'Три шарика на выбор: ваниль, шоколад, фисташка, клубника — свежие ягоды', price: 280, cat: 'Десерты', image: DISH_IMAGE },
+  { id: 'd3', name: 'Трайфл классический', desc: 'Бисквит, заварной крем, свежие ягоды, взбитые сливки, слоями в бокале', price: 350, cat: 'Десерты', image: DISH_IMAGE },
+  { id: 'd4', name: 'Трайфл с форелью', desc: 'Авторский трайфл: сливочный сыр, икра форели, огурец, хрустящий хлеб', price: 480, cat: 'Десерты', image: SEAFOOD_IMAGE },
+  { id: 'd5', name: 'Чизкейк Нью-Йорк', desc: 'Классический чизкейк на песочной основе, ягодный соус, мята', price: 390, cat: 'Десерты', image: DISH_IMAGE },
+  { id: 'd6', name: 'Чизкейк с форелью', desc: 'Несладкий чизкейк, сливочный сыр, копчёная форель, икра, зелёный лук', price: 520, cat: 'Десерты', image: SEAFOOD_IMAGE },
 ];
 
 interface MenuSectionProps {
