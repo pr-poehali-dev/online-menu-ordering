@@ -5,7 +5,7 @@ import Icon from '@/components/ui/icon';
 const DISH_IMAGE = 'https://cdn.poehali.dev/projects/1f4832cd-4e04-4a49-9c8e-c4a2c7992247/files/e33d72d6-bcd4-411b-afab-0db9be10bc82.jpg';
 const SEAFOOD_IMAGE = 'https://cdn.poehali.dev/projects/1f4832cd-4e04-4a49-9c8e-c4a2c7992247/files/e924042a-4df1-4ce1-a498-5fb229f9beca.jpg';
 
-const CATEGORIES = ['Все', 'Форель', 'Вырезка', 'Салаты', 'Завтраки', 'Закуски', 'Десерты'];
+const CATEGORIES = ['Все', 'Форель', 'Судак', 'Вырезка', 'Салаты', 'Завтраки', 'Закуски', 'Десерты'];
 
 const MENU: { id: string; name: string; desc: string; price: number; cat: string; image: string; tag?: string }[] = [
   { id: 'f1', name: 'Форель на гриле', desc: 'Свежая форель на углях, сезонные овощи, соус из трав и лимона', price: 1200, cat: 'Форель', image: SEAFOOD_IMAGE, tag: 'Шеф рекомендует' },
@@ -13,6 +13,11 @@ const MENU: { id: string; name: string; desc: string; price: number; cat: string
   { id: 'f3', name: 'Уха из форели', desc: 'Наваристый бульон из свежей форели, картофель, зелень, сливки', price: 480, cat: 'Форель', image: DISH_IMAGE },
   { id: 'f4', name: 'Форель запечённая', desc: 'Целая форель в духовке с розмарином, чесноком и лимонным маслом', price: 1400, cat: 'Форель', image: SEAFOOD_IMAGE },
   { id: 'f5', name: 'Икра форели', desc: 'Свежая икра форели, блин, сметана, зелёный лук', price: 650, cat: 'Форель', image: SEAFOOD_IMAGE, tag: 'Новинка' },
+  { id: 'su1', name: 'Судак на гриле', desc: 'Филе судака на углях, сезонные овощи, соус из трав и лимона', price: 980, cat: 'Судак', image: SEAFOOD_IMAGE, tag: 'Шеф рекомендует' },
+  { id: 'su2', name: 'Судак в сливочном соусе', desc: 'Нежное филе судака в сливочно-чесночном соусе с каперсами и зеленью', price: 860, cat: 'Судак', image: SEAFOOD_IMAGE },
+  { id: 'su3', name: 'Уха из судака', desc: 'Наваристый бульон из свежего судака, картофель, морковь, лавровый лист, зелень', price: 420, cat: 'Судак', image: DISH_IMAGE },
+  { id: 'su4', name: 'Судак запечённый', desc: 'Целое филе судака с розмарином и лимоном, запечённое в духовке', price: 1100, cat: 'Судак', image: SEAFOOD_IMAGE },
+  { id: 'su5', name: 'Котлеты из судака', desc: 'Домашние котлеты из рубленого судака, картофельное пюре, соус тартар', price: 640, cat: 'Судак', image: DISH_IMAGE },
   { id: 'v1', name: 'Вырезка на гриле', desc: 'Говяжья вырезка средней прожарки, картофельное пюре, соус демиглас', price: 2400, cat: 'Вырезка', image: DISH_IMAGE, tag: 'Шеф рекомендует' },
   { id: 'v2', name: 'Вырезка с грибами', desc: 'Говяжья вырезка в сливочном соусе с белыми грибами и тимьяном', price: 2800, cat: 'Вырезка', image: DISH_IMAGE },
   { id: 'v3', name: 'Стейк из вырезки', desc: 'Стейк Шатобриан, овощи гриль, соус беарнез', price: 3600, cat: 'Вырезка', image: DISH_IMAGE },
