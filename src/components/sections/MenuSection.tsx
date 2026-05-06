@@ -21,7 +21,7 @@ const MENU: { id: string; name: string; desc: string; price: number; cat: string
   { id: 'b3', name: 'Сырники творожные', desc: 'Воздушные сырники из деревенского творога, сметана, ягодный соус', price: 320, cat: 'Завтраки', image: DISH_IMAGE },
   { id: 'b4', name: 'Сырники с изюмом', desc: 'Творожные сырники с изюмом, ванильный соус, свежие ягоды', price: 360, cat: 'Завтраки', image: DISH_IMAGE },
   { id: 'k1', name: 'Крокеты х.к.', desc: 'Хрустящие крокеты домашнего копчения, соус тартар, свежая зелень', price: 420, cat: 'Закуски', image: DISH_IMAGE },
-  { id: 'k2', name: 'Устрицы Fine de Claire', desc: '6 шт., лимон, уксусная гранита, ржаной хлеб', price: 2400, cat: 'Закуски', image: SEAFOOD_IMAGE },
+
 ];
 
 interface MenuSectionProps {
