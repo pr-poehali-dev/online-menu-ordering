@@ -34,7 +34,7 @@ export default function Navigation({ activeSection, scrollTo, cartCount, onCartO
           onClick={() => scrollTo('home')}
           className="font-display text-2xl tracking-[0.3em] text-gold hover:text-gold-light transition-colors"
         >
-          MAISON
+          МАРЛИН
         </button>
 
         <nav className="hidden lg:flex items-center gap-8">
