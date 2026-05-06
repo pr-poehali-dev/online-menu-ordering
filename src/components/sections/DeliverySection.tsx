@@ -10,7 +10,7 @@ const SEAFOOD_IMAGE = 'https://cdn.poehali.dev/projects/1f4832cd-4e04-4a49-9c8e-
 const MARLIN_IMAGE = 'https://cdn.poehali.dev/projects/1f4832cd-4e04-4a49-9c8e-c4a2c7992247/files/038322d8-8b01-47ad-b7be-54d78ba7bb6a.jpg';
 
 const DELIVERY_ITEMS = [
-  { id: 'd1', name: 'Сет «Марлин Гурмэ»', desc: '5 блюд из марлина + соусы + хлеб', price: 8900, image: MARLIN_IMAGE },
+  { id: 'd1', name: 'Сет «Гурмэ»', desc: 'Закуска шефа, горячее на выбор, десерт + соусы и хлеб', price: 8900, image: DISH_IMAGE },
   { id: 'd2', name: 'Ужин для двоих', desc: 'Закуска, основное, десерт, бутылка вина', price: 12500, image: DISH_IMAGE },
   { id: 'd3', name: 'Морской коктейль', desc: 'Устрицы, лобстер, крабовые клешни, соусы', price: 9800, image: SEAFOOD_IMAGE },
 ];
@@ -31,7 +31,7 @@ export default function DeliverySection({ addToCart }: DeliverySectionProps) {
           <h2 className="section-title">Доставка</h2>
           <div className="gold-divider mx-auto mt-6 mb-6" />
           <p className="text-muted-foreground font-body font-light max-w-xl mx-auto text-sm leading-relaxed">
-            Высокая кухня MAISON теперь доступна в вашем доме. Бесплатная доставка от 5 000 ₽.
+            Высокая кухня ресторана «Марлин» теперь доступна в вашем доме. Бесплатная доставка от 5 000 ₽.
           </p>
         </div>
 
