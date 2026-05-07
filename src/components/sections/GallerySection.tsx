@@ -1,8 +1,8 @@
 const IMAGES = [
-  { src: 'https://cdn.poehali.dev/projects/1f4832cd-4e04-4a49-9c8e-c4a2c7992247/files/dbee8d36-bc84-4c13-aba6-b43cece67e54.jpg', label: 'Основной зал' },
-  { src: 'https://cdn.poehali.dev/projects/1f4832cd-4e04-4a49-9c8e-c4a2c7992247/files/e33d72d6-bcd4-411b-afab-0db9be10bc82.jpg', label: 'Авторские блюда' },
-  { src: 'https://cdn.poehali.dev/projects/1f4832cd-4e04-4a49-9c8e-c4a2c7992247/files/9f8c368e-31bd-4f42-b323-355d2a994234.jpg', label: 'Приватный зал' },
-  { src: 'https://cdn.poehali.dev/projects/1f4832cd-4e04-4a49-9c8e-c4a2c7992247/files/e924042a-4df1-4ce1-a498-5fb229f9beca.jpg', label: 'Морепродукты' },
+  { src: 'https://cdn.poehali.dev/projects/1f4832cd-4e04-4a49-9c8e-c4a2c7992247/bucket/302b8e1f-6662-4deb-953d-b80ef77d7e10.jpg', label: 'Интерьер с аквариумом' },
+  { src: 'https://cdn.poehali.dev/projects/1f4832cd-4e04-4a49-9c8e-c4a2c7992247/bucket/9cfe31c1-9e85-4b3a-a0c0-d9c2c4b4f09a.jpg', label: 'Уютный зал' },
+  { src: 'https://cdn.poehali.dev/projects/1f4832cd-4e04-4a49-9c8e-c4a2c7992247/bucket/3eda8546-5a7b-4009-a535-7ee864231426.jpg', label: 'Сервировка' },
+  { src: 'https://cdn.poehali.dev/projects/1f4832cd-4e04-4a49-9c8e-c4a2c7992247/bucket/48850de0-bdce-4e0c-9ad0-3d15caeeb958.jpg', label: 'Барная стойка' },
   { src: 'https://cdn.poehali.dev/projects/1f4832cd-4e04-4a49-9c8e-c4a2c7992247/files/038322d8-8b01-47ad-b7be-54d78ba7bb6a.jpg', label: 'Символ ресторана' },
 ];
 

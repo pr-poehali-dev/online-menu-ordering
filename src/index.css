@@ -41,6 +41,11 @@
     --obsidian: 20 8% 6%;
     --charcoal: 20 8% 11%;
 
+    --teal: 185 60% 38%;
+    --teal-light: 185 55% 55%;
+    --teal-dark: 185 65% 25%;
+    --teal-muted: 185 40% 20%;
+
     --sidebar-background: 20 8% 6%;
     --sidebar-foreground: 40 20% 92%;
     --sidebar-primary: 43 65% 62%;
@@ -98,6 +103,56 @@
 
   .border-gold {
     border-color: hsl(var(--gold));
+  }
+
+  .text-teal {
+    color: hsl(var(--teal));
+  }
+
+  .text-teal-light {
+    color: hsl(var(--teal-light));
+  }
+
+  .bg-teal {
+    background-color: hsl(var(--teal));
+  }
+
+  .bg-teal-muted {
+    background-color: hsl(var(--teal-muted));
+  }
+
+  .border-teal {
+    border-color: hsl(var(--teal));
+  }
+
+  .teal-divider {
+    width: 60px;
+    height: 1px;
+    background: linear-gradient(
+      90deg,
+      transparent,
+      hsl(var(--teal)),
+      transparent
+    );
+  }
+
+  .btn-teal {
+    background-color: transparent;
+    border: 1px solid hsl(var(--teal));
+    color: hsl(var(--teal-light));
+    font-family: "Montserrat", sans-serif;
+    font-size: 0.7rem;
+    font-weight: 500;
+    letter-spacing: 0.2em;
+    text-transform: uppercase;
+    padding: 0.875rem 2.5rem;
+    transition: all 0.3s ease;
+    cursor: pointer;
+  }
+
+  .btn-teal:hover {
+    background-color: hsl(var(--teal));
+    color: hsl(var(--champagne));
   }
 
   .gold-divider {

@@ -62,6 +62,10 @@ export default {
 				champagne: 'hsl(var(--champagne))',
 				obsidian: 'hsl(var(--obsidian))',
 				charcoal: 'hsl(var(--charcoal))',
+				teal: 'hsl(var(--teal))',
+				'teal-light': 'hsl(var(--teal-light))',
+				'teal-dark': 'hsl(var(--teal-dark))',
+				'teal-muted': 'hsl(var(--teal-muted))',
 				sidebar: {
 					DEFAULT: 'hsl(var(--sidebar-background))',
 					foreground: 'hsl(var(--sidebar-foreground))',
